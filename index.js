@@ -1,3 +1,4 @@
-var name = "Hanzo"
-var age = 27
-var gender = "Male"
+let price = 100
+const name = 'Hanzo'
+
+console.log(price, name);
