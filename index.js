@@ -1,4 +1,14 @@
-let price = 100
-const name = 'Hanzo'
+let names = 'Hanzo'
+console.log(typeof names)
 
-console.log(price, name);
+let age = 27
+console.log(typeof age)
+
+let isMarried = true
+console.log(typeof isMarried)
+
+let colors = undefined
+console.log(typeof colors)
+
+let selectColor = null
+console.log(typeof selectColor)
