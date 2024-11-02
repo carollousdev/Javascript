@@ -1,14 +1,27 @@
-let names = 'Hanzo'
-console.log(typeof names)
+let user = {
+    name: "Hanzo",
+    age: 27,
+    hobby: 'reading'
+}
 
-let age = 27
-console.log(typeof age)
+let users = {
+    'name': "Hanzo",
+    'age': 27,
+    'hobby': 'reading'
+}
 
-let isMarried = true
-console.log(typeof isMarried)
+let indonesian =
+{
+    province: [
+        {
+            "Sumatera Utara": {
+                "kota": "Medan", "Kabupaten": "Medan-Marelan"
+            },
+        },
+        "Sulawesi Tenggara"
+    ]
+}
 
-let colors = undefined
-console.log(typeof colors)
-
-let selectColor = null
-console.log(typeof selectColor)
+console.log(user);
+console.log(users);
+console.log(indonesian['province'][0]["Sumatera Utara"]);
