@@ -5,18 +5,21 @@ function showName(name) {
 console.log(showName('John')) //Output: Your name is John
 
 function sum(num1, num2, operator) {
-    let result;
+    let results;
     switch (operator) {
-        case '+': result = num1 + num2;
+        case '+': results = num1 + num2;
             break;
-        case '-': result = num1 - num2;
+        case '-': results = num1 - num2;
             break;
-        case '*': result = num1 * num2;
+        case '*': results = num1 * num2;
             break;
-        case '/': result = num1 / num2;
+        case '/': results = num1 / num2;
             break;
-        default: result = 'Invalid operator';
+        default: results = 'Invalid operator';
     }
-    return result;
+    return results;
 }
 console.log(sum(15, 10, "*")); // Output: 150
+
+console.log(result = sum(2, 3, "+"));
+console.log(result)
